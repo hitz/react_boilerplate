@@ -19,7 +19,7 @@ npm -v
 In a directory where you have write permission, clone the repository from Github:
 
 ```
-git clone git@github.com:hitz/react_programming_starter.git
+git clone git@github.com:hitz/react_boilerplate.git
 ```
 
 When the cloning completes, `cd` into the `react_programming_starter` directory and run the following command:
