@@ -2,5 +2,6 @@
 build/js/application.js
 node_modules/*
 npm-debug.log
+package-log.json
 .sass-cache/*
 .tmp
