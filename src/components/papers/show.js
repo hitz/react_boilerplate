@@ -14,11 +14,11 @@ class PapersShow extends Component {
 
   fetchPaperData() {
     let paperId = this.props.params.id;
-    var _url = `http://www.yeastgenome.org/webservice/reference/${paperId}/overview`;
+    var _url = `https://s3-us-west-2.amazonaws.com/sgd-dev-assets/${paperId}.json`;
     // depends on global $
     $.ajax({
       url: _url,
-      dataType: 'JSONP',
+      dataType: 'JSON',
       success: (_data) => {
         this.setState({ data: { title: _data.title, abstract: _data.abstract.text } });
       },
